@@ -1,0 +1,62 @@
+body{
+    background-color: rgba(125,125,125,0.5);
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xxx-large;
+    text-align: center;
+}
+
+#main{
+    background-color: white;
+    width: 45%;
+    margin-left: 25%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#gameInstructions{
+    font-size: x-large;
+    text-align: center;
+}
+
+
+#colorBox{
+    background-color: #e63946;
+    margin: 10px;
+    height: 300px;
+    z-index: 10;
+    position: relative;
+}
+
+#newGameButton{
+    padding: 6px 30px;
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+@keyframes shake {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-5px);
+    }
+    75% {
+      transform: translateX(5px);
+    }
+  }
+  
+  .animate-shake {
+    animation: shake 0.3s ease-in-out;
+  }
+  
+
+#feedback {
+  height: 20px;
+  margin: 10px 0;
+  font-weight: bold;
+}
